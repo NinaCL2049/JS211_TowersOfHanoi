@@ -1,0 +1,1 @@
+The code plan in electronic form is all in the main.js comments. all other notes are included in this directory as .jpg files of my paper notes, which is where/how I do all my planning.

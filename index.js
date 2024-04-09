@@ -6,17 +6,21 @@
 // * First run the program in your browser with live server and double-click on the row you'd like to select an element from.
 // * Why are you get a warning in your console? Fix it.
 // * Delete these comment lines!
+// NO, I DON'T WANT TO DELETE THEM. I might want to refer to them later. These are my lines now, don't tell me what to do with them lol.
 
 const stone = null
 
 // this function is called when a row is clicked. 
 // Open your inspector tool to see what is being captured and can be used.
+
 const selectRow = (row) => {
-  const currentRow = row.getAttribute("data-row")
+  const currentRow = row.getAttribute("data-row");
   
-  console.log("Yay, we clicked an item", row)
-  console.log("Here is the stone's id: ", row.id)
-  console.log("Here is the stone's data-size: ", currentRow)
+  console.log("this is currentRow: ", currentRow);
+  
+  console.log("Yay, we clicked an item", row);
+  console.log("Here is the stone's id: ", row.id);
+  console.log("Here is the stone's data-size: ", currentRow);
 
   pickUpStone(row.id)
 } 
